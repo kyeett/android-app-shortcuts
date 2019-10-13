@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">New App</string>
+    <string name="charge_shortcut">Charge</string>
+    <string name="widgets_shortcut">Widgets</string>
+</resources>

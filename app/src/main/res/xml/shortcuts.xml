@@ -1,0 +1,23 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="show widgets"
+        android:icon="@drawable/ic_widgets_shortcut"
+        android:shortcutShortLabel="@string/widgets_shortcut">
+        <intent
+            android:action="cafe.gophers.myintenttutorial.ShowWidgets"
+            android:targetPackage="cafe.gophers.myintenttutorial"
+            android:targetClass="cafe.gophers.myintenttutorial.MainActivity"
+            />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="charge"
+        android:icon="@drawable/ic_battery_shortcut"
+        android:shortcutShortLabel="@string/charge_shortcut">
+        <intent
+            android:action="cafe.gophers.myintenttutorial.Charge"
+            android:targetPackage="cafe.gophers.myintenttutorial"
+            android:targetClass="cafe.gophers.myintenttutorial.MainActivity"
+            />
+    </shortcut>
+</shortcuts>
